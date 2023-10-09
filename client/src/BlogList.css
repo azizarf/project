@@ -1,0 +1,45 @@
+
+:root {
+    --main-bg-color: #f8f3f3;
+    --main-text-color: #333;
+    --secondary-text-color: #666;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--main-text-color);
+}
+
+
+p {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+}
+
+.inputs{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.inputs input{
+    outline: none;
+   padding-left: 1rem;
+}
